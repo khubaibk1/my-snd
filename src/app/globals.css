@@ -1,0 +1,29 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .btn {
+    @apply sm:w-[128px] sm:h-[50px] rounded-[25px] border-2 border-solid border-white w-[60px] text-[8px] sm:text-[16px] h-[25px];
+  }
+  .stepbtn {
+    @apply w-[87px] h-[35px] rounded-[25px] text-[white] bg-[#FF7F3F];
+  }
+
+  .heading {
+    @apply text-[#146356] text-[40px] font-[700];
+  }
+  .smallHeading {
+    @apply text-[#146356] text-[18px] font-[500];
+  }
+}
+
+body {
+  font-family: Publica Sans Round;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
